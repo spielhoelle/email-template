@@ -1,0 +1,150 @@
+<mjml>
+  <mj-body>
+    <mj-container background-color="#d7dde5">
+
+      <mj-section background-color="#F1F1F1">
+        <mj-column vertical-align="middle">
+          <mj-image width="80" align="left" src="http://spielhoe.shaula.uberspace.de/assets/coliga_logo.jpg" alt="OnePage" padding-bottom="0" padding-top="0">
+          </mj-image>
+        </mj-column>
+
+        <mj-column vertical-align="middle">
+          <mj-button border-radius="0" background-color="#F1F1F1" align="right" color="#29607C" font-weight="bold" border="2px solid #29607C" font-size="14" href="https://app.coliga.co/#/login" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif"
+            padding-bottom="0" padding-top="0">
+            LOG IN
+          </mj-button>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-url="http://spielhoe.shaula.uberspace.de/assets/Pattern1.png" vertical-align="bottom" full-width="full-width" background-repeat="repeat">
+        <mj-column width="100%" vertical-align="middle">
+          <mj-text align="center" font-size="14" color="#white" padding-top="30" padding-bottom="30">
+            <span style="font-size: 30px; line-height: 30px; color: white; font-weight: bold">GOT IT.</span>
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+      <mj-raw>
+        <div style="margin: 0 auto; max-width: 600px; background-color: #f1f1f1">
+          <img style="margin-top: 0px; margin-left: 30px" src="http://spielhoe.shaula.uberspace.de/assets/triangle.png"></img>
+        </div>
+      </mj-raw>
+      <mj-section background-color="#F1F1F1" >
+        <mj-column width="100%" vertical-align="left">
+          <mj-image src="http://zimmer.csufresno.edu/~kbyler/photos/cameron13/cameron-userpic7.jpg" border-radius="50%" alt="Box free shipping" align="left" border="none" width="60" padding-left="20" padding-right="0" padding-bottom="0" padding-top="0">
+          </mj-image>
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#F1F1F1" >
+        <mj-column width="100%" vertical-align="middle">
+          <mj-text color="#39BA9D" font-size="18" padding-bottom="10" padding-top="0">
+            Hi {Username}!
+          </mj-text>
+          <mj-text color="#696A6B" font-size="14" padding-bottom="25" padding-top="20">
+            You updated your email address
+            <span style="color: #f05b5b; font-size: 12px"><a href="{user new email}" style="text-decoration: none; color: inherit;">{user new email}</a></span>
+          </mj-text>
+          <mj-text color="#787878" font-size="14" padding-bottom="25" padding-top="0">
+            We just want to confirm you modified the email address linked to your Coliga account. If you did not you can then ignore this email.
+            <br/> Keep in mind that changing your email address will also alter the credentials you use to log in.
+          </mj-text>
+
+          <mj-button background-color="#f05b5b" align="left" color="#fff" font-weight="bold" border="2px solid #f05b5b" border-radius="0" font-size="14" href="{link}" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif" padding-bottom="0"
+            padding-top="0">
+            CONFIRM THIS CHANGE
+          </mj-button>
+
+          <mj-text color="#696A6B" font-size="12" padding-bottom="50" padding-top="20">
+            If the button above is not working click on this link to confirm your email change
+            <br/>
+            <span style="color: #39BA9D; font-size: 12px"><a href="{link}" style="text-decoration: none; color: inherit;">{link}</a></span>
+
+          </mj-text>
+        </mj-column>
+      </mj-section>
+
+
+      <mj-section background-url="http://spielhoe.shaula.uberspace.de/assets/Pattern1.png" vertical-align="middle" full-width="full-width" background-repeat="repeat">
+        <mj-column width="100%" vertical-align="middle">
+          <mj-text color="#fff" font-size="14" padding-bottom="25" padding-top="20">
+            Pick up work from your collective, anywhere.
+            <br/>
+            <span style="font-weight: bold">Download our mobile app.</span>
+
+          </mj-text>
+          </mj-column>
+
+          <mj-column width="100%">
+            <mj-table>
+              <tr>
+                <td style="width: 130px;">
+                  <a href="https://itunes.apple.com/de/app/coliga/id1102770642?l=en&mt=8" style="text-decoration: none; color: inherit; margin-right: 50px;">
+                    <img src="http://spielhoe.shaula.uberspace.de/assets/apple_store.png" />
+                  </a>
+                </td>
+                <td>
+                  <a href="https://play.google.com/store/apps/details?id=io.coliga.coliga&hl=en" style="text-decoration: none; color: inherit;">
+                    <img src="http://spielhoe.shaula.uberspace.de/assets/google_play.png" />
+                  </a>
+
+                </td>
+              </tr>
+            </mj-table>
+
+        </mj-column>
+      </mj-section>
+
+      <mj-section background-color="#F1F1F1">
+        <mj-column width="100%" vertical-align="middle">
+
+          <mj-text color="#29607C" font-size="14" padding-bottom="0" padding-top="0">
+            Let’s get social !
+            <span style="font-weight: bold">Follow us on : </span>
+          </mj-text>
+
+          <mj-social
+          align="left"
+          facebook-icon-color="#29607C"
+          insta-icon-color="#29607C"
+          display="facebook insta awesome-network"
+          facebook-content=" "
+          insta-content=" "
+          awesome-network-content=" "
+          facebook-href="https://www.facebook.com/www.coliga.co/"
+          insta-href="https://www.instagram.com/insidecoliga/"
+          awesome-network-href="https://b.coliga.co/"
+          awesome-network-icon-color="#F1F1F1"
+          awesome-network-icon="http://spielhoe.shaula.uberspace.de/assets/medium_logo.jpg"
+          insta-icon="http://spielhoe.shaula.uberspace.de/assets/instagram.jpg" />
+        </mj-column>
+
+      </mj-section>
+      <mj-section background-color="#d7dde5" vertical-align="middle">
+        <mj-column width="100%" vertical-align="middle">
+          <mj-text color="#29607C" font-size="14" padding-bottom="0" padding-top="0" align="center">
+
+            <a href="http://coliga.co/pp.txt" style="color: inherit;">
+            Privacy Policy
+            </a>
+            |
+            <a href="http://coliga.co/tos.txt" style="color: inherit;">
+            Terms and Conditions
+            </a>
+            |
+            <a href="https://app.coliga.co/#/problem_report" style="color: inherit;">
+            Get Support
+            </a>
+          </mj-text>
+          <mj-text color="#29607C" font-size="14" padding-bottom="0" padding-top="0" align="center">
+            <span style="color:#B4B4B4">Get Support © 2016 All Rights Reserved Coliga GmbH</span>
+
+          </mj-text>
+        </mj-column>
+
+
+
+      </mj-section>
+    </mj-container>
+  </mj-body>
+</mjml>

@@ -17,6 +17,6 @@
   },
   "homepage": "https://github.com/spielhoelle/email-template#readme",
   "dependencies": {
-    "mjml": "^3.3.2"
+    "mjml": "^3.3.1"
   }
 }
