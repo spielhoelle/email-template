@@ -4,22 +4,22 @@
 
       <mj-section background-color="#F1F1F1">
         <mj-column vertical-align="middle">
-          <mj-image width="80" align="left" src="http://spielhoe.shaula.uberspace.de/assets/coliga_logo.jpg" alt="OnePage" padding-bottom="0" padding-top="0">
-          </mj-image>
-        </mj-column>
+          <mj-inline-links base-url="https://mjml.io" padding-left="20" padding-right="20">
 
-        <mj-column vertical-align="middle">
-          <mj-button border-radius="0" background-color="#F1F1F1" align="right" color="#29607C" font-weight="bold" border="2px solid #29607C" font-size="14" href="https://app.coliga.co/#/login" font-family="Ubuntu, Helvetica, Arial, sans-serif, Helvetica, Arial, sans-serif"
-            padding-bottom="0" padding-top="0">
-            LOG IN
-          </mj-button>
+            <mj-image width="80" align="left" src="http://spielhoe.shaula.uberspace.de/assets/coliga_logo.jpg" alt="OnePage">
+            </mj-image>
+            <mj-button border-radius="0" background-color="#F1F1F1" align="right" color="#29607C" font-weight="bold" border="2px solid #29607C" font-size="14" href="https://app.coliga.co/#/login" >
+              LOG IN
+            </mj-button>
+
+          </mj-inline-links>
         </mj-column>
       </mj-section>
 
-      <mj-section background-url="http://spielhoe.shaula.uberspace.de/assets/Pattern1.png" vertical-align="bottom" full-width="full-width" background-repeat="repeat">
+      <mj-section background-url="http://spielhoe.shaula.uberspace.de/assets/Pattern1.png" vertical-align="bottom" background-repeat="repeat">
         <mj-column width="100%" vertical-align="middle">
           <mj-text align="center" font-size="14" color="#white" padding-top="30" padding-bottom="30">
-            <span style="font-size: 30px; line-height: 30px; color: white; font-weight: bold">GOT IT.</span>
+            <span style="font-size: 34px; line-height: 30px; color: white; font-weight: bold">GOT IT.</span>
           </mj-text>
         </mj-column>
       </mj-section>
@@ -31,17 +31,19 @@
       </mj-raw>
       <mj-section background-color="#F1F1F1" >
         <mj-column width="100%" vertical-align="left">
-          <mj-image src="http://zimmer.csufresno.edu/~kbyler/photos/cameron13/cameron-userpic7.jpg" border-radius="50%" alt="Box free shipping" align="left" border="none" width="60" padding-left="20" padding-right="0" padding-bottom="0" padding-top="0">
+          <mj-image src="http://zimmer.csufresno.edu/~kbyler/photos/cameron13/cameron-userpic7.jpg" border-radius="50%" align="left" width="60" padding-left="20" padding-right="0" padding-bottom="0" padding-top="0">
+          </mj-image>
+          <mj-image src="http://spielhoe.shaula.uberspace.de/assets/mask_for_picture.png" align="left" width="60" padding-left="20" padding-right="0" padding-bottom="0" padding-top="0">
           </mj-image>
         </mj-column>
       </mj-section>
 
       <mj-section background-color="#F1F1F1" >
         <mj-column width="100%" vertical-align="middle">
-          <mj-text color="#39BA9D" font-size="18" padding-bottom="10" padding-top="0">
+          <mj-text color="#39BA9D" font-size="16" padding-top="0">
             Hi {Username}!
           </mj-text>
-          <mj-text color="#696A6B" font-size="14" padding-bottom="25" padding-top="20">
+          <mj-text color="#696A6B" font-size="14" padding-bottom="25">
             You updated your email address
             <span style="color: #f05b5b; font-size: 12px"><a href="{user new email}" style="text-decoration: none; color: inherit;">{user new email}</a></span>
           </mj-text>
@@ -65,7 +67,7 @@
       </mj-section>
 
 
-      <mj-section background-url="http://spielhoe.shaula.uberspace.de/assets/Pattern1.png" vertical-align="middle" full-width="full-width" background-repeat="repeat">
+      <mj-section background-url="http://spielhoe.shaula.uberspace.de/assets/Pattern1.png" vertical-align="middle" background-repeat="repeat">
         <mj-column width="100%" vertical-align="middle">
           <mj-text color="#fff" font-size="14" padding-bottom="25" padding-top="20">
             Pick up work from your collective, anywhere.
@@ -122,7 +124,7 @@
       </mj-section>
       <mj-section background-color="#d7dde5" vertical-align="middle">
         <mj-column width="100%" vertical-align="middle">
-          <mj-text color="#29607C" font-size="14" padding-bottom="0" padding-top="0" align="center">
+          <mj-text color="#787878" font-size="14" padding-bottom="0" padding-top="0" align="center">
 
             <a href="http://coliga.co/pp.txt" style="color: inherit;">
             Privacy Policy
@@ -136,7 +138,7 @@
             Get Support
             </a>
           </mj-text>
-          <mj-text color="#29607C" font-size="14" padding-bottom="0" padding-top="0" align="center">
+          <mj-text font-size="14" padding-bottom="0" padding-top="0" align="center">
             <span style="color:#B4B4B4">Get Support © 2016 All Rights Reserved Coliga GmbH</span>
 
           </mj-text>
