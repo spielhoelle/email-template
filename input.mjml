@@ -1,14 +1,14 @@
 <mjml>
   <mj-body>
-    <mj-container background-color="#d7dde5">
+    <mj-container background-color="#F1F1F1">
 
-      <mj-section background-color="#F1F1F1">
+      <mj-section>
         <mj-column vertical-align="middle">
           <mj-inline-links base-url="https://mjml.io" padding-left="20" padding-right="20">
 
-            <mj-image width="80" align="left" src="http://spielhoe.shaula.uberspace.de/assets/coliga_logo.jpg" alt="OnePage">
-            </mj-image>
-            <mj-button border-radius="0" background-color="#F1F1F1" align="right" color="#29607C" font-weight="bold" border="2px solid #29607C" font-size="14" href="https://app.coliga.co/#/login" >
+            <mj-image width="80" align="left" src="https://coliga.co/email//coliga_logo.jpg" alt="OnePage"></mj-image>
+
+            <mj-button border-radius="0" background-color="#f1f1f1" align="right" color="#29607C" font-weight="bold" border="2px solid #29607C" font-size="14" href="https://app.coliga.co/#/login" >
               LOG IN
             </mj-button>
 
@@ -16,7 +16,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section background-url="http://spielhoe.shaula.uberspace.de/assets/Pattern1.png" vertical-align="bottom" background-repeat="repeat">
+      <mj-section background-url="https://coliga.co/email//Pattern1.png" vertical-align="bottom" background-repeat="repeat">
         <mj-column width="100%" vertical-align="middle">
           <mj-text align="center" font-size="14" color="#white" padding-top="30" padding-bottom="30">
             <span style="font-size: 34px; line-height: 30px; color: white; font-weight: bold">GOT IT.</span>
@@ -25,27 +25,27 @@
       </mj-section>
 
       <mj-raw>
-        <div style="margin: 0 auto; max-width: 600px; background-color: #f1f1f1">
-          <img style="margin-top: 0px; margin-left: 30px" src="http://spielhoe.shaula.uberspace.de/assets/triangle.png"></img>
+        <div style="margin: 0 auto; max-width: 600px; background-color: #ffffff">
+          <img style="margin-top: 0px; margin-left: 40px" src="http://spielhoe.shaula.uberspace.de/assets/triangle.png"/>
         </div>
       </mj-raw>
-      <mj-section background-color="#F1F1F1" >
-        <mj-column width="100%" vertical-align="left">
-          <mj-image src="http://zimmer.csufresno.edu/~kbyler/photos/cameron13/cameron-userpic7.jpg" border-radius="50%" align="left" width="60" padding-left="20" padding-right="0" padding-bottom="0" padding-top="0">
-          </mj-image>
-          <mj-image src="http://spielhoe.shaula.uberspace.de/assets/mask_for_picture.png" align="left" width="60" padding-left="20" padding-right="0" padding-bottom="0" padding-top="0">
-          </mj-image>
-        </mj-column>
-      </mj-section>
+      <mj-section background-color="#ffffff" >
+        <mj-column width="100%" vertical-align="left" padding-left="20">
 
-      <mj-section background-color="#F1F1F1" >
+        </mj-column>
+
         <mj-column width="100%" vertical-align="middle">
+              <mj-raw>
+                <img style="margin-left: 20px; background: url(https://media.coliga.co/ZH/w5/j2/UCqrA_gIV-oSnWpA/v/normal.jpg) center center/cover no-repeat; background-size: 80%;" src="https://coliga.co/email//mask_for_picture.png"/>
+              </mj-raw>
           <mj-text color="#39BA9D" font-size="16" padding-top="0">
             Hi {Username}!
           </mj-text>
           <mj-text color="#696A6B" font-size="14" padding-bottom="25">
             You updated your email address
-            <span style="color: #f05b5b; font-size: 12px"><a href="{user new email}" style="text-decoration: none; color: inherit;">{user new email}</a></span>
+            <span style="color: #f05b5b; font-size: 12px">
+              <a href="{user new email}" style="text-decoration: none; color: inherit;">{user new email}</a>
+            </span>
           </mj-text>
           <mj-text color="#787878" font-size="14" padding-bottom="25" padding-top="0">
             We just want to confirm you modified the email address linked to your Coliga account. If you did not you can then ignore this email.
@@ -67,7 +67,7 @@
       </mj-section>
 
 
-      <mj-section background-url="http://spielhoe.shaula.uberspace.de/assets/Pattern1.png" vertical-align="middle" background-repeat="repeat">
+      <mj-section background-url="https://coliga.co/email//Pattern1.png" vertical-align="middle" background-repeat="repeat">
         <mj-column width="100%" vertical-align="middle">
           <mj-text color="#fff" font-size="14" padding-bottom="25" padding-top="20">
             Pick up work from your collective, anywhere.
@@ -87,7 +87,7 @@
                 </td>
                 <td>
                   <a href="https://play.google.com/store/apps/details?id=io.coliga.coliga&hl=en" style="text-decoration: none; color: inherit;">
-                    <img src="http://spielhoe.shaula.uberspace.de/assets/google_play.png" />
+                    <img src="https://coliga.co/email//google_play.png" />
                   </a>
 
                 </td>
@@ -97,7 +97,7 @@
         </mj-column>
       </mj-section>
 
-      <mj-section background-color="#F1F1F1">
+      <mj-section background-color="#ffffff">
         <mj-column width="100%" vertical-align="middle">
 
           <mj-text color="#29607C" font-size="14" padding-bottom="0" padding-top="0">
@@ -121,8 +121,10 @@
           insta-icon="http://spielhoe.shaula.uberspace.de/assets/instagram.jpg" />
         </mj-column>
 
+        </mj-column>
+
       </mj-section>
-      <mj-section background-color="#d7dde5" vertical-align="middle">
+      <mj-section vertical-align="middle">
         <mj-column width="100%" vertical-align="middle">
           <mj-text color="#787878" font-size="14" padding-bottom="0" padding-top="0" align="center">
 
@@ -143,8 +145,6 @@
 
           </mj-text>
         </mj-column>
-
-
 
       </mj-section>
     </mj-container>
