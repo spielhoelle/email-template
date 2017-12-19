@@ -1,5 +1,7 @@
 # mjml email-template
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/spielhoelle/email-template.svg)](https://greenkeeper.io/)
+
 ### Installation
 Requires [Node.js](https://nodejs.org/) v6.6.0 to run.
 
